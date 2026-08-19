@@ -8,4 +8,4 @@ The python scripts in this folder are primarily for post-simulation analysis of 
 The bash scripts in this folder were written as tools for file management and processing and job management on HPC clusters. 
 
 ## LAMMPS Modifications
-The files in this folder are modifications of the LAMMPS source code that I made to perform the functions needed for simulating charged hydrocarbon-water clusters. This includes a pair potential for soft spheres as described in https://doi.org/10.1021/acs.jpcb.3c07777.  
+The files in this folder are modifications of the LAMMPS source code that I made to perform the functions needed for simulating charged hydrocarbon-water clusters. This includes a pair potential for soft spheres as described in https://doi.org/10.1021/acs.jpcb.3c07777 and a modified atomic atom style that allows for individual atomic mass assignment rather than per atom type mass (the rmass feature in other atom styles).  
